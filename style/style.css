@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(34, 34, 34);
+    /*background-color: rgb(34, 34, 34);*/
+    background-color: black;
     color: white;
     font-family: poppinsregular;
     max-width: 1200px;/*Manter o tamanho mesmo para monitores grande*/
@@ -55,7 +56,7 @@ main {
 }
 
 h2{
-    font-size: 56px;
+    font-size: 35px;
     line-height: 10px;
     font-family: poppinsmedium;
 }
@@ -71,7 +72,10 @@ p {
 }
 
 img {
-    width: 580px;
+    
+    border-radius: 150%;
+    /*width: 580px;*/
+    width: 700px;
 }
 
 img:hover {

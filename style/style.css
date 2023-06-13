@@ -88,6 +88,8 @@ form {
     display: flex;
     flex-direction: column;
     width: 70%;
+    align-items: center;
+    gap: 5px;
 }
 
 form [type="submit"] { /*Editar um elemento seprado dentro da div de forma semântica*/
@@ -112,8 +114,27 @@ input {
     font-size: 15px;
 }
 
+#notifyOK {
+    display: none;
+    height: 25px;
+    width: 25px;
+}
+
 footer {
     font-size: small;
     margin-top: 100px;
     text-align: center;
 }
+
+/*
+#form {
+    display:inline-flex;
+    flex-direction:row;
+    align-content:center;
+    width: 70%;
+    align-items: center;
+    padding: 0px 20px  20px 100px;
+    gap: 10px;
+
+}
+*/

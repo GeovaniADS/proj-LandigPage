@@ -19,7 +19,7 @@
 
         <ul>
             <a href="#title"><li>Início</li></a>
-            <a href="#"><li>Serviços</li></a>
+            <!--<a href="#"><li>Serviços</li></a>-->
             <a href="#span"><li>Sobre</li></a>
             <a href="https://wa.me/+5543999972280?text=Ol%C3%A1%20seja%20muito%20bem%20vindo%21" id="inscreva-se-btn"><li>Contato</li></a>
         </ul>
@@ -37,10 +37,11 @@
                   VENHA CONHECER UM POUCO MAIS SOBRE NÓS!
             </p>
             <form id="myForm">
-                <input type="text" id="name" name="name" placeholder="Nome">
+                <input type="text" id="name" name="nome" placeholder="Nome">
                 <input type="email" id="email" name="email" placeholder="e-mail">
                 <input type="text" id="assunto" name="assunto" placeholder="Assunto">
                 <input type="submit" value="Enviar📤">
+                <img id="notifyOK" src="/componentes/imagens/sim.png" alt="">
             </form>
         </aside>
 
@@ -48,6 +49,9 @@
             <img src="componentes/imagens/usoTecnologia.jpg" alt="imgPrincipal">
         </article>
     </main>
+    <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-firestore.js"></script>
+    <script src="/logica.js/script.js"></script>
 </body>
 <footer id="footer">
     Todos os direitos reservados

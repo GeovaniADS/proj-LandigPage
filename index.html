@@ -18,16 +18,16 @@
         </div>
 
         <ul>
-            <a href="#"><li>Início</li></a>
+            <a href="#title"><li>Início</li></a>
             <a href="#"><li>Serviços</li></a>
-            <a href="#"><li>Sobre</li></a>
-            <a href="#" id="inscreva-se-btn"><li>Contato</li></a>
+            <a href="#span"><li>Sobre</li></a>
+            <a href="https://wa.me/+5543999972280?text=Ol%C3%A1%20seja%20muito%20bem%20vindo%21" id="inscreva-se-btn"><li>Contato</li></a>
         </ul>
     </header>
 
     <main>
         <aside> <!-- Div Semântica para locais de texto-->
-            <h2><span>Seja bem vindo!</span></h2>
+            <h2><span id="span">Seja bem vindo!</span></h2>
             <h2>NG Desenvolvimento </h2>
             <p>
                 Somos uma empresa de tecnologia focado em soluções inovadoras para atender as demandas do mundo digital.
@@ -36,10 +36,11 @@
             <p>
                   VENHA CONHECER UM POUCO MAIS SOBRE NÓS!
             </p>
-            <form>
-                <input type="text" placeholder="Nome">
-                <input type="email" placeholder="e-mail">
-                <input type="submit" value="Enviar >">
+            <form id="myForm">
+                <input type="text" id="name" name="name" placeholder="Nome">
+                <input type="email" id="email" name="email" placeholder="e-mail">
+                <input type="text" id="assunto" name="assunto" placeholder="Assunto">
+                <input type="submit" value="Enviar📤">
             </form>
         </aside>
 
@@ -48,7 +49,7 @@
         </article>
     </main>
 </body>
-<footer>
+<footer id="footer">
     Todos os direitos reservados
 </footer>
 </html>
